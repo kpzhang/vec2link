@@ -1,4 +1,4 @@
-# vec2link:
+# vec2Link:
 
 This repository provides a Python implementation of *vec2link*
 
