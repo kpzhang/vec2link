@@ -1,10 +1,10 @@
 # vec2Link:
 
-This repository provides a Python implementation of *vec2link*
+This repository provides a Python implementation of *vec2Link*
 
-The *vec2link* is a novel link prediction framework, by jointly modeling both user's social network relationship and spatiotemporal check-in information
+The *vec2Link* is a novel link prediction framework, by jointly modeling both user's social network relationship and spatio-temporal check-in mobility
 
-Before to execute *vec2link*, it is necessary to install the following packages:
+Before executing *vec2Link*, it is necessary to install the following packages:
 <br/>
 ``pip install futures``
 <br/>
