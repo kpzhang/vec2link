@@ -14,7 +14,7 @@ The file dataset_TSMC2014_NYC.txt contains 227428 check-ins in New York city.
 The file dataset_TSMC2014_TKY.txt contains 537703 check-ins in Tokyo.
 
 =============================================================================================================================
-Please cite our paper if you publish material based on this dataset.
+Please cite the paper below if you publish material based on this dataset.
 
 =============================================================================================================================
 REFERENCES
