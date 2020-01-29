@@ -29,7 +29,7 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 - --run /data_process/ by the following order:data_proper_time.py,data_filter.py and data_split.py
 - --run /NE/ [Open NE](https://github.com/thunlp/OpenNE) or /struc2vec/ [struc2vec](https://github.com/leoribeiro/struc2vec) to obtain the network representation.
 - --run /poissionmf/ by the following order:data_checkins.py and create_matrix to obtain the spatiotemporal check-in information representation
-- --run /evaluate/ to estimate the performance of vec2link. The four_methods.py and model_mlp.py will generate four contrastive experiments. The lsh_joint.py and model_scalp.py is used to evaluate the *vec2link*
+- --run /evaluate/ to estimate the performance of vec2link. The four_methods.py and model_mlp.py will generate four contrastive experiments. The lsh_joint.py and model_scalp.py are used to evaluate the *vec2link*
 
 #### Options
 
