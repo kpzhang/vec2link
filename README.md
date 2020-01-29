@@ -24,6 +24,7 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 ### Data Set
 - --You can download [Gowalla data set [DC & CHI]](http://snap.stanford.edu/data/loc-gowalla.html) here.
 - --You can download [Brightkite](http://snap.stanford.edu/data/loc-Brightkite.html) here.
+- --You can download [Foursquare [NYC & TKY]](https://sites.google.com/site/yangdingqi/home/foursquare-dataset) here.
 
 ### Basic Usage
 
