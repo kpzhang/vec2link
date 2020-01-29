@@ -1,10 +1,10 @@
 # vec2Link: Unifying Online and Offline Preference for Social Link Prediction
 
-This repository provides a Python implementation of *vec2Link*
+This repository provides a Python implementation of *vec2Link* which is a novel link prediction framework, by jointly modeling both user's social network relationship and spatio-temporal check-in mobility.
 
+## Abstract
 Recent advances in network representation learning have enabled significant improvements in the link prediction task, which is at the core of many downstream applications. As an increasing amount of mobility data becomes available due to the development of location-based technologies, we argue that this resourceful mobility data can be used to improve link prediction performance. In this paper, we propose a novel link prediction framework that utilizes user offline check-in behavior combined with user online social relations. We model user offline location preference via a probabilistic factor model and represent user social relations using neural network representation learning. To capture the correlation of these two sources, we develop an anchor link method to align these two different user latent representations. Furthermore, we employ locality-sensitive hashing to project the aggregated user representation into a binary matrix, which not only preserves the data structure but also improves the efficiency of convolutional network learning. By comparing with several baseline methods that solely rely on social networks or mobility data, we show that our unified approach significantly improves the link prediction performance.
 
-The *vec2Link* is a novel link prediction framework, by jointly modeling both user's social network relationship and spatio-temporal check-in mobility
 
 ![vec2link logo](pics/vec2link.png)
 
