@@ -1,4 +1,4 @@
-To get one gowalla checkin file, use the following linux command:
+To combina all sub-checkin files into one gowalla checkin file, use the following linux command:
 
 cat loc-gowalla_totalCheckins.* > loc-gowalla_totalCheckins.txt
 
