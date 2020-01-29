@@ -22,7 +22,8 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 -  scikit-learn==0.19.0
 
 ### Data Set
-- --You can download [gowalla data set](http://snap.stanford.edu/data/loc-gowalla.html) here.
+- --You can download [Gowalla data set [DC & CHI]](http://snap.stanford.edu/data/loc-gowalla.html) here.
+- --You can download [Brightkite](http://snap.stanford.edu/data/loc-Brightkite.html) here.
 
 ### Basic Usage
 
