@@ -1,5 +1,6 @@
 This dataset includes long-term (about 10 months) check-in data in New York city and Tokyo collected from Foursquare from 12 April 2012 to 16 February 2013.
-It contains two files in tsv format. Each file contains 8 columns, which are:
+
+It contains two files in txt format. Each file contains 8 columns, which are:
 
 1. User ID (anonymized)
 2. Venue ID (Foursquare)
