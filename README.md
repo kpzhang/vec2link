@@ -3,7 +3,8 @@
 This repository provides a Python implementation of *vec2Link*
 
 The *vec2Link* is a novel link prediction framework, by jointly modeling both user's social network relationship and spatio-temporal check-in mobility
-![vec2link logo](pics/vec2link.pdf)
+
+![vec2link logo](pics/vec2link.png)
 
 Before executing *vec2Link*, it is necessary to install the following packages:
 <br/>
