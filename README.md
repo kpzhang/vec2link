@@ -29,9 +29,9 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 
 ### Basic Usage
 
-- --run /data_process/ by the following order:data_proper_time.py,data_filter.py and data_split.py
-- --run /NE/ [Open NE](https://github.com/thunlp/OpenNE) or /struc2vec/ [struc2vec](https://github.com/leoribeiro/struc2vec) to obtain the network representation.
-- --run /poissionmf/ by the following order:data_checkins.py and create_matrix to obtain the spatiotemporal check-in information representation
+- --run codes under /data_process/ by the following order:data_proper_time.py, data_filter.py, and data_split.py
+- --run codes under /NE/[Open NE](https://github.com/thunlp/OpenNE) or /struc2vec/ [struc2vec](https://github.com/leoribeiro/struc2vec) to obtain the network representation.
+- --run codes under /poissionmf/ by the following order:data_checkins.py and create_matrix to obtain the spatiotemporal check-in representation
 - --run /evaluate/ to estimate the performance of vec2link. The four_methods.py and model_mlp.py will generate four contrastive experiments. The lsh_joint.py and model_scalp.py are used to evaluate the *vec2link*
 
 #### Options
@@ -39,8 +39,8 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 - --You can choose the location range of check_ins or the check-in time by modifying /data_process/data_proper_time.py
 - --You can choose *n* user records, *m* POI IDs, and the number of user nodes(the sub-graph) by modifying /data_process/data_filter.py
 - --You can adjust the proportion of the training set and the test set by modifying /data_process/data_split.py
-- --You can choose the method of network embedding in /NE/ which includes:node2vec,line,deepWalk,grarep or /struc2vec/ which includes:struc2vec to generate the network representations
+- --You can choose the method of network embedding in /NE/ which includes:node2vec, line, deepWalk, grarep or /struc2vec/ which includes:struc2vec to generate the network representations
 
 ### Miscellaneous
 
-*Note:* This is only a reference implementation of *vec2link*.
+*Note:* This is only a reference implementation of *vec2link*. For details or questions, please contact the author.
