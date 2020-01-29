@@ -8,6 +8,7 @@ Recent advances in network representation learning have enabled significant impr
 
 ![vec2link logo](pics/vec2link.png)
 
+## Requirements
 Before executing *vec2Link*, it is necessary to install the following packages:
 <br/>
 ``pip install futures``
@@ -16,8 +17,7 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 <br/>
 ``pip install gensim``
 
-## Requirements
-
+The following dependant packages are required:
 -  numpy==1.13.1
 -  networkx==2.0
 -  scipy==0.19.1
@@ -25,26 +25,23 @@ Before executing *vec2Link*, it is necessary to install the following packages:
 -  gensim==3.0.1
 -  scikit-learn==0.19.0
 
-### Dataset
+### Datasets
 - --You can access all datasets from [datasets/](https://github.com/kpzhang/vec2link/tree/master/datasets) or download from their original sources: 
 - --You can download [Gowalla data set [DC & CHI]](http://snap.stanford.edu/data/loc-gowalla.html) here.
 - --You can download [Brightkite](http://snap.stanford.edu/data/loc-Brightkite.html) here.
 - --You can download [Foursquare [NYC & TKY]](https://sites.google.com/site/yangdingqi/home/foursquare-dataset) here.
 
 ### Basic Usage
-
 - --run codes under /data_process/ by the following order:data_proper_time.py, data_filter.py, and data_split.py
 - --run codes under /NE/[Open NE](https://github.com/thunlp/OpenNE) or /struc2vec/ [struc2vec](https://github.com/leoribeiro/struc2vec) to obtain the network representation.
 - --run codes under /poissionmf/ by the following order:data_checkins.py and create_matrix to obtain the spatiotemporal check-in representation
 - --run /evaluate/ to estimate the performance of vec2link. The four_methods.py and model_mlp.py will generate four contrastive experiments. The lsh_joint.py and model_scalp.py are used to evaluate the *vec2link*
 
 #### Options
-
 - --You can choose the location range of check_ins or the check-in time by modifying /data_process/data_proper_time.py
 - --You can choose *n* user records, *m* POI IDs, and the number of user nodes(the sub-graph) by modifying /data_process/data_filter.py
 - --You can adjust the proportion of the training set and the test set by modifying /data_process/data_split.py
 - --You can choose the method of network embedding in /NE/ which includes:node2vec, line, deepWalk, grarep or /struc2vec/ which includes:struc2vec to generate the network representations
 
 ### Miscellaneous
-
 *Note:* This is only a reference implementation of *vec2link*. For details or questions, please contact the author.
